@@ -1,0 +1,11 @@
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebServerRole
+
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebServer
+
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-ApplicationDevelopment
+
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-IIS6ManagementCompatibility
+
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-ASPNet45 -All
+
+Enable-WindowsOptionalFeature -Online -FeatureName NetFx4Extended-ASPNET45
